@@ -1,26 +1,37 @@
-# rc-table
+# svg-component-belly
 
-React table component.
+this is a react component for select belly position.
 
-[![NPM version][npm-image]][npm-url] [![build status][travis-image]][travis-url] [![Test coverage][codecov-image]][codecov-url] [![npm download][download-image]][download-url]
-
-## install
-
-[![rc-table](https://nodei.co/npm/rc-table.png)](https://npmjs.org/package/rc-table)
+一个选择腹痛位置的react组件，使用svg实现。
 
 ## Development
 
 ```
 npm install
-npm start
+npm run start
 ```
-
-## Example
-
-http://react-component.github.io/table/examples/
 
 ## Usage
 
+```
+import React from 'react';
+import BellyPosition from '../src/index';
+
+const Demo = () => (
+  <div>
+    <BellyPosition onChange={e => console.log(e)} />
+  </div>
+);
+
+export default Demo;
+```
+
+## Screenshot
+
+![avatar](./assets/微信截图_20191121104004.png)
+
+![avatar](./assets/微信截图_20191121104023.png)
+
 ## License
 
-rc-table is released under the MIT license.
+svg-component-belly is released under the MIT license.
